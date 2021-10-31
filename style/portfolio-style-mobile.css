@@ -1,0 +1,77 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+}
+.backround-box{
+    height: 100vh;
+    width: 100vw;
+    background-image: none;
+    font-family: 'Rubik', sans-serif;
+    /* padding: 20vh 0vw; */
+}
+
+.card{
+    width: 100vw;
+    height: 100vh;
+    /* position: absolute;
+    top: 20px; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    background-color: lightgoldenrodyellow;
+    font-size: 1.6rem;
+}
+.navbar{
+    display: block;
+    padding: 14px;
+    text-decoration: none;
+}
+.sticky {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+}
+header{
+    
+}
+#profile_pic{
+    margin-top: 3vh;
+    width: 15vw;
+    height: 8vh;
+    border-radius: 50%;
+}
+#about{
+    text-align: left;
+    width: 100vw;
+    padding: auto;
+    margin-bottom: 5vh;
+}
+#about h4{
+    margin-top: 28px;
+    margin-bottom: 0px;
+    color: blue;
+}
+.btn{
+    width: 100vw;
+    height: 5vh;
+    padding: auto;
+}
+footer{
+    width: 100vw;
+    height: 10vh;
+    padding: auto;
+}
+#connect-head{
+    margin: 0px;
+    margin-bottom: 1vh;
+}
+#connection li{
+    display: inline;
+    padding: 1.5vw;
+}
+#connection li a{
+    text-decoration: none;
+}

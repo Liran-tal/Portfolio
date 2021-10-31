@@ -1,0 +1,72 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.clr{
+    clear: both;
+}
+.backround-box{
+    background-image: url("../images/cloud-gc90e4f786_1920.jpg");
+    font-family: 'Rubik', sans-serif;
+}
+.card{
+    margin: 5% auto;
+    width: 60%;
+    height: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    background-color: lightgoldenrodyellow;
+}
+header{
+    padding-top: 5px;
+}
+#profile_pic{
+    width: 15%;
+    height: 15%;
+    border-radius: 50%;
+}
+#about{
+    text-align: left;
+    width: 360px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+#about h4{
+    margin-top: 28px;
+    margin-bottom: 0px;
+    color: blue;
+}
+footer{
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+#connect-head{
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+#connection{
+    list-style-type: none;
+    margin: 0px 30px;
+    padding: 0px;
+    display: inline-block;
+    justify-content:center;
+    
+}
+#connection li{
+    display: inline;
+    padding: 10px;
+}
+.navbar{
+    /* float: left; */
+    display: block;
+    color: ;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+.sticky {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+}
